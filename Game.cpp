@@ -3,7 +3,7 @@
 Game::Game(sf::ContextSettings settings, int width, int height)
     : window(sf::VideoMode(width, height, 8), "Nuclear", sf::Style::Default, settings) {
     // window.setFramerateLimit(60);
-    font.loadFromFile("Natural Mono Alt Regular.ttf");
+    font.loadFromFile("Droid Sans Mono Slashed.ttf");
     text.setFont(font);
     text.setCharacterSize(12);
     text.setPosition(0, 0);
